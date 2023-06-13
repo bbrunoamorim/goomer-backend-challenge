@@ -4,7 +4,7 @@
   "description": "![alt text](https://github.com/goomerdev/job-dev-backend-interview/raw/master/media/logo-azul.png \"Goomer\")",
   "main": "src/server.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest",
     "dev": "ts-node-dev -r tsconfig-paths/register --respawn --ignore-watch node_modules --no-notify ."
   },
   "repository": {
@@ -24,6 +24,7 @@
   },
   "devDependencies": {
     "@types/express": "^4.17.17",
+    "@types/jest": "^29.5.2",
     "@types/node": "^20.3.0",
     "@types/sequelize": "^4.28.15",
     "@typescript-eslint/eslint-plugin": "^5.59.11",
